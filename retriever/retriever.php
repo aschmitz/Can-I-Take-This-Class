@@ -19,7 +19,7 @@ if (substr($sem, 0, 2) == "sp") {
 echo "Starting retrieval for $sem at ".date("Y-m-d H:i:s")."\n\n";
 
 //Get a list of all the departments
-$catalog_data = file_get_contents("http://courses.illinois.edu/cisapp/explorer/schedule/$year/$term.xml");
+$catalog_data = file_get_contents("https://courses.illinois.edu/cisapp/explorer/schedule/$year/$term.xml");
 $catalog_parsed = new SimpleXMLElement($catalog_data);
 foreach ($catalog_parsed->subjects->subject as $subj) {
     $subject = $subj["id"];
@@ -28,7 +28,7 @@ foreach ($catalog_parsed->subjects->subject as $subj) {
 
     //Get the schedule data
     try {
-        $data = file_get_contents("http://courses.illinois.edu/cisapp/explorer/schedule/$year/$term/$subject.xml?mode=cascade");
+        $data = file_get_contents("https://courses.illinois.edu/cisapp/explorer/schedule/$year/$term/$subject.xml?mode=cascade");
         $parsed = new SimpleXMLElement($data);
 
         //Get all the sections currently in this subject (to compare later)

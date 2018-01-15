@@ -31,7 +31,7 @@ JSON
 
 ### Request URL
 
-[http://canitakethisclass.com/api?courses=cs225,cs233&date=2016-04-11](http://canitakethisclass.com/api?courses=cs225,cs233&date=2016-04-11)
+[https://canitakethisclass.com/api?courses=cs225,cs233&date=2016-04-11](https://canitakethisclass.com/api?courses=cs225,cs233&date=2016-04-11)
 
 ### Response
 
