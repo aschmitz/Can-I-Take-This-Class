@@ -5,7 +5,7 @@ _Find out whether you'll get into the classes you want at UIUC._
 ## Overview
 Can I Take This Class is a tool for students at the University of Illinois at Urbana-Champaign to predict their chances of getting into the classes they want. It uses historical course registration data to predict when classes will fill up and when they will open up again.
 
-It was developed by Alex Cordonnier as the successor to ClassMaster, a CS 411 final project developed with Clarence Elliott, Gaurang Jain, and Sean Mulroe.
+It was developed by Alex Cordonnier as the successor to ClassMaster, a CS 411 final project developed with Clarence Elliott, Gaurang Jain, and Sean Mulroe. It is currently maintained by [aschmitz](https://aschmitz.org).
 
 ## How it works
 First, it calculates the percentage of sections that were open in previous semesters around the equivalent registration date. More recent semesters are weighted more heavily because classes and demand change over time.
@@ -25,4 +25,4 @@ Can I Take This Class works well for most classes, but there are a few things it
 It works best on classes where you need one of every type of section. For other classes, you can use the table provided under the prediction to see what your chances would really be.
 
 ## For developers
-Want to use these predictions in your own project? Check out the [API](https://github.com/ajcord/Can-I-Take-This-Class/wiki/API-Docs)!
+Want to use these predictions in your own project? Check out the [API docs](docs/api.md)!

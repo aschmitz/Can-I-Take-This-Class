@@ -80,7 +80,8 @@
             in Champaign-Urbana, IL</a>.
     </p>
     <p>
-        It was developed by
+        It is run by <a href="https://aschmitz.org">aschmitz</a>, and
+        was developed by
         <a href="http://alexcordonnier.com">Alex Cordonnier</a>
         as the successor to ClassMaster, a CS 411 final project
         developed with Clarence Elliott, Gaurang Jain, and Sean Mulroe.
