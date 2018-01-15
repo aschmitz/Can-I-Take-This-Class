@@ -91,9 +91,9 @@
     <p>
         Want to know more?
         The source code is available on
-        <a href="https://github.com/ajcord/Can-I-Take-This-Class">GitHub</a>.
+        <a href="https://github.com/aschmitz/canitakethisclass">GitHub</a>.
         Check out the
-        <a href="https://github.com/ajcord/Can-I-Take-This-Class/wiki/API-Docs">API</a>!
+        <a href="https://github.com/aschmitz/canitakethisclass/blob/master/docs/api.md">API</a>!
     </p>
 </div>
 
